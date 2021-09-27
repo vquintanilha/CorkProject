@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Cork - Coffe & Space Rentals</title>
+    <link rel="stylesheet" href="css/estilo.css"/>
+    <link rel="stylesheet" href="css/contato.css"/>
+    <link rel="sortcut icon" href="imagens/icon.ico" type="image/x-icon"/>;
+</head>
+<body>
+<div id="interface">
+
+	<!-- Logo da cafeteria -->
+    <header id="cabecalho">
+        <header id="nome">
+            <h1>Cork</h1>
+            <h2>Coffe & Space Rentals</h2>
+        </header>
+
+    <img id="logo" src="imagens/logo.png"/>
+
+	<!-- Menu de navegação entre páginas do site -->
+    <nav id="menu">
+        <h1>Menu Principal</h1>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="sobre.html">Sobre Nós</a></li>
+            <li><a href="galeria.html">Galeria</a></li>
+            <li><a href="cardapio.html">Cardápio</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+    </header>
+
+    <!-- Parte esquerda da página, com campo para deixar uma mensagem -->
+    <section id="corpo">
+        <article id="conteudo">
+
+            <h1>Deixe sua mensagem!</h1>
+
+            <form method="post" id="mensagem" action="bd/salva_mensagem.php">
+            <p><label for="cNome">Nome:</label>
+                <input type="text" name="tNome" id="cNome" size="30" maxlength="30" placeholder="Nome Completo" required/></p>
+            <p><label for="cMail">E-mail:</label>
+                <input type="email" name="tMail" id="cMail" size="30" maxlength="30" placeholder="Seu melhor e-mail" required/></p>
+            <p><label for="cAssunto">Assunto:</label>
+                <input type="text" name="tAssunto" id="cAssunto" size="30" maxlength="30" placeholder="Assunto do contato" required/></p>
+            <p><label for="cMsg">Mensagem:<br/></label>
+                <textarea name="tMsg" id="cMsg" cols="65" rows="5" placeholder="Deixe aqui sua mensagem" required></textarea></p>
+
+            <input type="image" name="tEnviar" id="cEnviar" src="imagens/enviar.jpg"/>
+
+            </form>
+
+        </article>
+    </section>
+
+    <!-- Parte direita da página, com contatos e endereço -->
+    <aside id="lateral">
+        <p> <h1>Contatos</h1>
+            <a href="http://facebook.com/cork.coffe" target="_blank"><img src="imagens/facebook.png"/> fb.com/cork.coffe</a> <br/>
+            <a href="http://instagram.com/cork-99" target="_blank"><img src="imagens/instagram.png"/> @cork-99</a> <br/>
+            <img src="imagens/whatsapp.png"/> <a>(41) 94002-8922</a> <br/>
+            <img src="imagens/mail.png"/> <a>cork-coffe@gmail.com</a> <br/> <br/>
+            <h1>Endereço</h1>
+            <img src="imagens/endereco.png"/> <a>Av. Manoel Ribas, 3540 - Cascatinha</a>
+        </p>
+    </aside>
+
+	<!-- Rodapé da página com autor do site, facebook e instagram da cafeteria -->
+    <footer id="rodape">
+        <p>Copyright &copy; 2019 - by Victor Quintanilha<br/>
+        <a href="http://facebook.com/cork.coffe" target="_blank"><img src="imagens/facebook.png"/></a>
+        <a href="http://instagram.com/cork-99" target="_blank"><img src="imagens/instagram.png"/></a>
+        </p>
+    </footer>
+
+</div>
+</body>
+</html>

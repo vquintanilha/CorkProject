@@ -1,0 +1,92 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'FonteLogo';
+    src: url("../fonts/valkenregular.ttf");
+}
+
+h1#imagens {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+ul#galeria {
+    width: 700px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+}
+
+ul#galeria li {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 5px solid #dbf0f0;
+    box-shadow: 1px 1px 10px rgba(0,0,0,.4);
+    -webkit-transition: all .3s ease-in;
+}
+
+ul#galeria li:hover {
+    -webkit-transform: scale(1.5);
+}
+
+ul#galeria li#galeria1 {
+    background: url('../imagens/galeria1.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+}
+ul#galeria li#galeria1:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#galeria li#galeria2 {
+    background: url('../imagens/galeria2.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+}
+ul#galeria li#galeria2:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#galeria li#galeria3 {
+    background: url('../imagens/galeria3.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+}
+ul#galeria li#galeria3:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#galeria li#galeria4 {
+    background: url('../imagens/galeria4.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+}
+ul#galeria li#galeria4:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#galeria li#galeria5 {
+    background: url('../imagens/galeria5.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+}
+ul#galeria li#galeria5:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#galeria li#galeria6 {
+    background: url('../imagens/galeria6.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+}
+ul#galeria li#galeria6:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}

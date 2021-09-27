@@ -1,0 +1,50 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'FonteLogo';
+    src: url("../fonts/valkenregular.ttf");
+}
+
+form {
+    width: 600px;
+    margin: auto;
+}
+
+p {
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 13pt;
+    text-indent: 10px;
+}
+
+input, textarea {
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 13pt;
+    background-color: rgba(255,255,255,.5);
+}
+
+input:hover, textarea:hover {
+    background-color: #dddddd;
+}
+
+input#cEnviar {
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+/* Formatação da Lateral Direita */
+
+aside#lateral h1 {
+    font-family: 'FonteLogo', sans-serif;
+    color: #3e8e8e;
+    font-weight: lighter;
+    font-size: 16pt;
+    margin: 8px auto 8px auto;
+    padding-top: 0px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.1);
+}
+
+aside#lateral a {
+    color: black;
+    text-decoration: none;
+}
